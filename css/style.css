@@ -1,0 +1,23 @@
+.slide img {
+    width: 100px;
+    height: 100px;
+    animation: scroll 15s linear infinite;
+  }
+  
+  .slide-tracks {
+    width: 100%;
+    display: flex;
+    gap: 3em;
+    overflow: hidden;
+  }
+  
+  .sliders {
+    margin-top: 5px;
+    /* background-color: whitesmoke; */
+    /* padding: 8em 2em; */
+  }
+  
+  @keyframes scroll {
+    0% {transform: translateX(0);}
+    100% {transform: translatex(-1000%)}
+  }
